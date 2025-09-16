@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+        table{
+            background-color: blue;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <table border="4">
+        <thead>
+            <tr>
+                <th colspan="3">HTML Table</th>
+            </tr>
+            
+                <th>Cell 1</th>
+                <th>
+                    <table>
+                        <thead>
+                            <th>Cell 2</th>
+                        </thead>
+
+                        <tbody>
+                            <td>
+                                <table border="4">
+                                    <thead>
+                                        <th colspan="2">Nested HTML Table</th>
+                                    </thead>
+
+                                    <body>
+                                    <td>Cell 2.1</td>
+                                    <td>Cell 2.2</td>
+                                    <tr>
+                                        <td>Cell 2.3</td>
+                                        <td>Cell 2.4</td>
+                                    </tr>
+
+                                    </body>
+                                </table>
+                            </td>
+                        </tbody>
+                    </table>
+                </th>
+        
+        </thead>
+        <tbody>
+            
+            
+           
+        </tbody>
+        
+        
+    </table>
+</body>
+</html>
