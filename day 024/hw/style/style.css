@@ -1,0 +1,44 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* text color start */
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: blue;
+}
+/* text color end */
+
+/* Text align start */
+.text-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+/* text align end */
+
+/* background color */
+.background-red {
+    background-color: brown;
+}
+/* square start */
+.square {
+    width: 400px;
+    height: 550px;
+    background-color: aliceblue;
+}
+/* square end */

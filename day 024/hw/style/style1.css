@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* background color start */
+.background-black{
+    background-color: rgb(0, 0, 0);
+}
+
+/* background color end */
+
+/* text color start */
+.text-skyblue {
+    color: rgb(0, 157, 255);
+}
+.text-limegreen{
+    color: limegreen;
+}
+/* text color end */
+
+/* Text align start */
+.text-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+/* text align end */
+
+/* square start */
+.square-lightred {
+    width: 189px;
+    height: 64px;
+    background-color: rgb(255, 0, 0);
+}
+
+/* square end */

@@ -8,4 +8,4 @@ for i in range(10, 55 , 5):
 i = 0
 while i < 50:
     print("Sandro")
-    i = i + 1
+    i = i + 24

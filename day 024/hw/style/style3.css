@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-lightgray{
+    color: rgb(220, 220, 220);
+}
+.text-yellow{
+    color: yellow;
+}
+
+.text-start{
+    text-align: start;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: end;
+}
+
+.square-green{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+
+.background-gray{
+    background-color: rgb(18, 18, 18);
+}
