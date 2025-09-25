@@ -1,0 +1,55 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset css */
+
+/* text color start */
+
+/* text blue */
+.text-white{
+    color: white;
+}
+/* text lightblue */
+.text-lightblue{
+    color: rgb(0, 112, 150);
+}
+/* text red */
+.text-red{
+    color: red;
+}
+
+/* text color end */
+
+/* background color start */
+.background-black{
+    background-color: black;
+}
+
+/* background color end */
+
+/* text align start */
+
+/* end */
+.text-end{
+    text-align: end;
+}
+/* center */
+.text-center{
+    text-align: center;
+}
+/* start */
+.text-start{
+    text-align: start;
+}
+
+/* square start */
+.square-white{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+}
+/* square end */
