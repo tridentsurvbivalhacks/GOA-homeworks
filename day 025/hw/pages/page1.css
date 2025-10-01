@@ -1,0 +1,35 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background color start */
+.background-black{
+    background-color: black;
+}
+/* background color end */
+
+/* text color start */
+
+.text-white{
+    color: white;
+}
+/* text color start */
+
+/* text align start */
+
+/* end */
+.text-end{
+    text-align: end;
+}
+/* center */
+.text-center{
+    text-align: center;
+}
+/* start */
+.text-start{
+    text-align: start;
+}
+/* text align end */
