@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* single text color */
+.text-green{
+    color: green;
+}
+.text-purple-h2{
+    color: rgb(229, 1, 250);
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+/* single text color end */
+/* backgroudn color */
+body{
+    background-color: black;
+}
+/* background color end */
+/* text align */
+.text-end{
+    text-align: end;
+}
+.text-center{
+    text-align: center;
+}
+.text-start{
+    text-align: start;
+}
+
+/* text align end */
+.color-changer-1{
+    color: aqua;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.color-changer-2{
+    color: tomato;
+    padding-left: 450px;
+}
+.unorder-3{
+    color: yellow;
+    background-color: black;
+    padding: 40px;
+}

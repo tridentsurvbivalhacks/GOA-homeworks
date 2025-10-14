@@ -1,0 +1,31 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css  */
+/* text color start */
+.text-darkred{
+    color: rgb(65, 0, 0);
+}
+.text-black{
+    color: black;
+}
+/* text color end */
+/* padding container start */
+.padding-container{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 60px;
+}
+/* padding container end */
+/* margin containter start */
+.margin-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+/* margin containter end */

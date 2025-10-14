@@ -1,0 +1,81 @@
+/* es aris reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css */
+/* text color */
+.text-red{
+    color: rgb(175, 19, 19);
+}
+/* text color */
+
+/* box layout shedgeba 3 shrisgan magram chven viswavlet 2 */
+/* 1 aris margin, margin shegvilia shevcvalot inspect it websiteze magram marto sheicvleba ertxel da css tu davwert amas is sul iqneba class-at shenaxuli da rodesac gvinda gamoviyenebt */
+/* margin container shegvilia gamoviyenot sxvadasxva naerat */
+/* margin containers contenti garet */
+/* variant #1----------------------------------- */
+.margin-container{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+/* variant #2----------------------------------- */
+    margin: 20px;
+    /* 
+    margin-top 20
+    margin rigt 20 
+    margin-bottom 20
+    margin-left 20*/
+/* variant #3----------------------------------- */
+    /*(vertical) y    x (horizontal)   */
+    margin: 20px 40px;
+    /* 
+    margin-top 20
+    margin right 40 
+    margin-bottom 20
+    margin left 40 */
+/* variant #4----------------------------------- */
+    margin: 10px 20px 30px 40px;
+    /* this works in clock wise */
+    /* 
+    margin-top 10
+    margin right 20
+    margin bottom 30 
+    margin left 40*/
+
+}
+/* padding containers content shignit shemoaq
+da esec shegvilia gamoviyenot sxvadasxva naerat da gavs margins */
+.padding-container {
+    /*
+     padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; 
+    */
+
+    padding: 40px;
+    /*
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px; 
+    */
+    /*         y    x  */
+    padding: 10px 20px;
+    /* 
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; 
+    */
+    padding: 10px 20px 30px 40px;
+    /* clock wise */
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+    /*  */
+}
