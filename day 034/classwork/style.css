@@ -1,0 +1,15 @@
+/* reset css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset css end */
+
+.bg-linear{
+    background-image:
+     linear-gradient(45deg, rgba(45, 197, 25, 0.873), rgba(128, 0, 128, 0.719)),
+     linear-gradient(to left, rgb(255, 0, 0), rgb(0, 0, 0));
+    height: 100vh;
+    width: 100%;
+}
