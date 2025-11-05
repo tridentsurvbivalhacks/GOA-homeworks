@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* linear gradient aris background-image is erterti tipi romlitac chven shegvilia shevqmnat bevrnaeri ferebi da gamovitanot websiteze es ferebi sxvadasxva mimartulebis saxit (to "", deg 
+
+*/
+
+.bg-box1{
+    background-image:url(./assets/images/brandofacrifice.png), url(./assets/images/bandofthehawk.png), url(./assets/images/berserk.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px,300px, cover;
+    background-position-x: 5%, 90%, 0%;
+    background-position-y: 15%, 87%, 0%;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.bg-box1 h2{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.bg-box1 p{
+    font-size: 30px;
+    color: red;
+    text-decoration: underline;
+    text-shadow: 1px 5px 5px rgb(24, 0, 0);
+    margin-right: 180px;
+}
+.bg-box1 h3{
+    margin-top: 250px;
+    font-size: 25px;
+    color: rgb(84, 0, 0);
+    
+}
+.bg-box1-ul1{
+    color: red;
+    text-shadow:2px 5px 5px orangered;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+.bg-box1 h4{
+    color: rgb(0, 225, 255);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 5px 5px blue;
+    text-decoration: overline;
+}
+.bg-box1-ul2{
+    color: blue;
+    text-shadow:2px 5px 15px rgb(0, 210, 252) ;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 500px;
+    font-size: 25px;
+}
+
