@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-box{
+    background-image: url(./assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-size: 18;
+  font-weight: 700;
+  font-style: oblique 45deg;
+  font-variation-settings: 700 ;
+}
+.playfair-display{
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic 60deg;
+  font-variation-settings: 500 ;
+}
+
+.bg-box p{
+  padding: 20px;
+  text-align: center;
+}
