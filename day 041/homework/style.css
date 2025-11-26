@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* display flex gvexmareba rom block level elementebi davalagot ertmanetis gverdigverd rogorc inline elementebi */
+.display-flex{
+    display: flex;
+}
+.div-1{
+    background-image: linear-gradient(45deg, green,blue);
+    width: 100px;
+    height: 100px;
+}
+.div-2{
+    background-image: linear-gradient(to left, rgb(0, 0, 0),rgb(255, 208, 0));
+    width: 100px;
+    height: 100px;
+}
+.div-3{
+    background-image: linear-gradient(to right, red, green);
+    height: 100px;
+    width: 100px;
+}
+.div-4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

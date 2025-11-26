@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-1{
+    background-image: linear-gradient(45deg, blue,green, purple);
+    width: 500px;
+    height: 500px;
+}
+.div-2{
+    background-image: linear-gradient(90deg, cyan, black, red);
+    width: 50%;
+    height: 50vh;
+}
+.div-3{
+    background-image: linear-gradient(to bottom, yellow, purple, red, orange);
+    width: 100vw;
+    height: 50vh;
+}
+.div-4{
+    background-image: linear-gradient(to bottom, purple, blue, orange);
+    height: 2rem;
+    width: 2rem;
+}
+.div-5{
+    background: red;
+    width: 500px;
+    height: 500px;
+    margin:0 auto ;
+}
+.display-flex{
+    display: flex;
+}
