@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    display: flex;
+}
+.blue-div{
+    background-color: rgb(114, 201, 255);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.pink-div{
+    background-color: rgb(241, 94, 255);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.purple-div{
+    background-color: rgb(114, 86, 255);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.red-div{
+    background: rgb(255, 118, 118);
+    width: 100px;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.green-div{
+    background-color: rgb(194, 255, 118);
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+.pinnk-div{
+    background-color: rgb(255, 155, 247);
+    width: 75px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+.blue-a-div{
+    background-color: rgb(155, 164, 255);
+    width: 75px;
+    height: 75px;
+    color: white;
+    text-align: center;
+}
+.blue-b-div{
+    background-color: rgb(155, 164, 255);
+    width: 75px;
+    height: 75px;
+    color: white;
+    text-align: center;
+}
+.main-container{
+    display: flex;
+    gap: 8px;
+}
+.second-container{
+    gap: 8px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+}

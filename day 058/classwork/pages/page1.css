@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua
+    
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+div{
+    background-color: brown;
+}
