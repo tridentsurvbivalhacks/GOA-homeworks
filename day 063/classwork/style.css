@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: rgb(237, 94, 42);
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
+}
+
+.df1 {
+    display: flex;
+    gap: 50px;
+}
+
+.color-s {
+    color: rgb(237, 94, 42);
+}
+
+h3 {
+    color: rgb(83, 84, 89);
+    text-decoration: line-through;
+}
+
+.df {
+    display: flex;
+}
+
+.adjust {
+    background-color: rgb(242, 143, 106);
+    border: 0px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+h4 {
+    font-size: 15px;
+}
