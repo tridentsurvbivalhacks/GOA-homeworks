@@ -6,3 +6,12 @@ print(type(_er))
 print(_er[0])
 
 #4) სცადე tuple-ის რომელიმე ელემენტის შეცვლა და დააკვირდი რა მოხდება
+# _er += "sandro"
+# print(_er)
+array = []
+for i in range(5):
+    array.append(i)
+print(array)
+array = []
+name = "gio"
+wdwsd = []

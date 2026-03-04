@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.df {
+    display: flex;
+    flex-direction: row;
+}
+.adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.dv1 {
+    background-color: #3dadff;
+}
+.dv2,.dv3{
+    background-color: #5ad8cc;
+}

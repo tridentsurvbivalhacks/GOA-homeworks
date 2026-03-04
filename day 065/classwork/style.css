@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-image: url(./assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    border: 3px solid rgb(235, 3, 3);
+}
+.btn:focus {
+    background-color: rgb(39, 1, 255);
+}
+.btn:active {
+    background-color: rgb(59, 59, 59);
+    border: 3px solid rgb(39, 2, 2);
+}

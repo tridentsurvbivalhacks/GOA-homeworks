@@ -7,4 +7,4 @@
 #     if n < 0:
 #         return False
 #     return (n ** 0.5) % 1 == 0
-print(27**0.5 % 1)
+print(44**0.5 % 1)
