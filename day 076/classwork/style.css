@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 1000px;
+    height: 1080px;
+    position: relative;
+    background-color: black;
+}
+
+
+.box::before{
+    content: "square1";
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    position:absolute;
+}
+.box::after{
+    content: "square2";
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 3, 3);
+    position:absolute;
+    top: 0;
+    right: 0;
+}

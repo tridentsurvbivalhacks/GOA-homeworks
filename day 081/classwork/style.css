@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* primary */
+    --purple-400: #6741d9;
+    --red-400: #e03131;
+
+    /* secondary */
+    --gray-300: #ced4da;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.adjust{
+    margin: 0 auto; 
+    width: 100%;
+}
+.adjust img{
+    width: 100%;
+}

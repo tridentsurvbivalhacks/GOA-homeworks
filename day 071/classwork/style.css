@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.adj{
+    border-radius: 15%;
+    color: rgb(109, 108, 108);
+}
+.df{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.adjust-h3{
+    color: rgb(109, 108, 108);
+}
+/* header */
+
+/* main */
+.df1{
+    display: flex;
+}
+.adjust-p1{
+    font-size: 50px;
+}
+.adjust-p2{
+    color: rgb(37, 37, 37);
+}
+
+.adjust-button{
+    background-color: #191a23;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+   
+}
+.df3{
+    display: flex;
+    padding: 50px;
+}
+/* main */
