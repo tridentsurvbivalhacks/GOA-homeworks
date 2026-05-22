@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+
+        }
+
+        button {
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="display()">click for classwork</button>
+    <div id="first-div"></div>
+    <div id="second-div"></div>
+</body>
+<script>
+    const first = document.getElementById("first-div")
+    const second = document.getElementById("second-div")
+    function display() {
+        console.log(first)
+        console.log(second)
+
+    }
+</script>
+
+</html>

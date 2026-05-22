@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <style>
+            #red-div {
+                background-color: rgb(255, 25, 0);
+                height: 500px;
+                width: 600px;
+                margin: 0 auto;
+                border-radius: 10%;
+                border: 6px solid black;
+            }
+            #submitb {
+                background-color: yellow;
+                border-radius: 15%;
+                border: 5px solid red;
+                font-size: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .yellow-div {
+                background-color: yellow;
+                border: 5px solid black;
+                border-radius: 10%;
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+        .
+    </head>
+    <body>
+        <div id="red-div" onmouseover="color_change()">
+            <form>
+                <input type="email" />
+                <input type="password" />
+                <input id="submitb" type="submit" onclick="loginindicator()" />
+            </form>
+        </div>
+        <!--1) შექმენით ერთი წითელი დივი და როდესაც მაუსს გადაატარებთ ფერი გახდეს ლურჯი-->
+        <!--2) შექმენით სარეგისტრაციო ფორმა submit ღილაკით, როცა მომხმარებელი submit-ს დააწვება კონსოლშ უნდა გამოვიდეს "logged in successfully"-->
+        <!--3) საიტზე დაამატეთ ცარიელი პარაგრაფი და მაიკლ ჯეკსონის ფოტო და როდესაც მას დააწვებით პარაგრაფში ჩაიწეროს 3 მისი ყველაზე პოპულარული სიმღერა-->
+        <img
+            src="./assets/images/mj.png"
+            alt="mikael jakson"
+            onclick="infopopup()"
+        />
+        <div class="yellow-div">
+            <p id="mj_p">click on mj for info</p>
+        </div>
+        <!--4) საიტზე დაამატეთ იარაღის ფოტო და როდესაც მას დააწვებით მის გვერდზე გაჩნდეს ტყვიის ფოტო-->
+        <div id="image-container">
+            <img
+                src="./assets/images/glock.png"
+                alt="a 9mm gun"
+                onclick="imagepopup()"
+            />
+            <img src="" alt="" id="emptyimg" />
+        </div>
+        <!--5) თქვენი სიტყვებით ახსენით რა არის DOM-->
+        <!--dom aris igive document document object model ari titon html da html yvela tagebi
+        da elementebi romlebic inaxeba dokumentshi da shegvilia idebit mivwvdet
+        object aris es documenti romeltic controldeba yvelaferi
+        dom aris igive xidi htmls shoris da dom-it shen js iyeneb ro html elementebi shecvalo,moshalo an daamato-->
+    </body>
+
+    <script>
+        const red_div = document.getElementById("red-div");
+        function color_change() {
+            red_div.style.backgroundColor = "rgb(0, 0, 255)";
+        }
+        const submit_button = document.getElementById("submitb");
+        function loginindicator() {
+            console.log("logged in successfully");
+        }
+        const mj_info = document.getElementById("mj_p");
+        function infopopup() {
+            mj_info.textContent = "1.Billie Jean 2.Thriller 3.Beat It";
+        }
+
+        function imagepopup() {
+            const img = document.getElementById("emptyimg");
+            img.src = "./assets/images/ammo.png";
+            img_img.alt = "9mm ammo";
+
+            const container = getElementById("image-container");
+            container.appendChild(img);
+        }
+    </script>
+</html>
